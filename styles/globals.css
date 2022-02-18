@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}
+
+.content {
+  max-width: 100%;
+  margin: 0 auto;
+}
+nav {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #595959;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 110px;
+  z-index: 1;
+}
+nav a {
+  margin: auto;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.main-buttons {
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+nav .logo {
+  margin: auto;
+}
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: #777;
+  border-top: 1px solid #eaeaea;
+}
+
+.not-found {
+  margin-top: 150px;
+  text-align: center;
+  padding: 120px;
+}
+
+.not-found a {
+  color: #4979ff;
+  text-decoration: underline;
+}
+
+.button-client {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px auto;
+  font-size: 14px;
+  font-weight: 700;
+  margin: auto;
+  height: 40px;
+  text-decoration: none;
+  color: #FA6400;
+  border: 0 solid;
+  border-color: #FA6400;
+  border-radius: 5px;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button-client:hover {
+  background-color: #FA6400;
+  cursor: pointer;
+  color: black;
+  border: 1px solid;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+}
+
+.about-section {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  scroll-margin: 60px !important;
+}
+
+.about-text {
+  padding: 50px;
+  flex: 50%;
+  font-size: 17px;
+}
+
+.about-image {
+  padding: 20px;
+}
+
+.imageFachada {
+  border-radius: 10px;
+}
+
+.services-section {
+  height: 100vh;
+  background-color: #f1eded;
+}
+
+.cards-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+  transition: box-shadow .3s ease-out;
+  transition: 0.3s ease box-shadow;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110px;
+  width: 150px;
+  display: flex;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.service h1 {
+  align-self: center;
+  color: white;
+}
+
+.services-section .service:hover {
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.2);
+}
+
+.title-services {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.d-admin {
+  background-image: url('../public/fotos/direito-administrativo.jpeg');
+}
+
+.d-civil {
+  background-image: url('../public/fotos/direito-civil.jpg');
+}
+
+.d-tributario {
+  background-image: url('../public/fotos/direito-tributario.jpg');
+}
+
+.d-empresarial {
+  background-image: url('../public/fotos/direito-empresarial.jpg');
+}
+
+.d-trabalho {
+  background-image: url('../public/fotos/direito-do-trabalho.jpg');
+}
+
+.d-familia {
+  background-image: url('../public/fotos/direito-da-familia.jpg');
+}
+
+.content-article {
+  margin-top: 150px;
+}
+
+.artigos-list {
+  padding: 30px 0;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px 10px;
+}
+
+.blog-section {
+  margin-top: 110px;
+}
+
+.blog-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+  background-image: url('../public/fotos/estatua-simbolo-justica.jpg');
+  background-position: 75% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+  color: white;
+}
+
+.blog-intro h1, div {
+  margin: 0 auto;
+}
+
+.citacao {
+  font-size: 18px;
+}
+
+.thumbnail-artigos {
+  border-radius: 10px;
+}
+
+.card {
+  padding: 10px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.title-artigo {
+  display: flex;
+  align-items: center;
+}
+
+.title-artigo:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+.blog-preview-section {
+  height: 100vh;
+  background-color: #f1eded;
+}
+
+.blog-preview-section h1 {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.blog-preview {
+  padding: 20px auto;
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  grid-gap: 10px 10px;
+  justify-content: center;
+}
