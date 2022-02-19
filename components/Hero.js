@@ -1,5 +1,6 @@
 import styles from "../styles/Home.module.css";
 import Typewriter from "typewriter-effect";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -28,7 +29,9 @@ const Hero = () => {
         />
       </div>
       <div className={styles.btnHero}>
-        <button>Entre em contato</button>
+        <Link href="/#contact">
+          <button>Entre em contato</button>
+        </Link>
       </div>
     </section>
   );

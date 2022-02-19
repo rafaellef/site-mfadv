@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Services from "../components/Services";
 import Team from "../components/Team";
+import Contact from "../components/Contact";
 import { createClient } from "contentful";
 import ArtigoCard from "../components/ArtigoCard";
 import Aos from "aos";
@@ -29,7 +30,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ artigos }) {
-
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -54,7 +54,7 @@ export default function Home({ artigos }) {
         <About />
         <Services />
         <Team />
-        <div className="blog-preview-section"  data-aos="fade-up">
+        <div className="blog-preview-section" data-aos="fade-up">
           <h1>Últimas notícias e Artigos</h1>
           <div className="blog-preview">
             {<ArtigoCard key={ultimoPostOne.sys.id} artigo={ultimoPostOne} />}
@@ -72,6 +72,7 @@ export default function Home({ artigos }) {
             </div>
           </Link>
         </div>
+        <Contact />
       </div>
     </>
   );
