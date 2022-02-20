@@ -142,8 +142,8 @@ footer {
   transition: 0.3s ease box-shadow;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 110px;
-  width: 150px;
+  height: 90px;
+  width: 125px;
   display: flex;
   flex-basis: 25%;
   text-align: center;

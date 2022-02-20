@@ -15,7 +15,10 @@ const Contact = () => {
     <div className="form" id="contact">
       <h1 data-aos="fade-up">Contato</h1>
       <div className="contact-wrapper" data-aos="fade-up">
-        <form className="form-container">
+        <form className="form-container" action="https://formsubmit.co/rafaellfernan@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="http://localhost:3000/thanks" />
+        <input type="hidden" name="_autoresponse" value="Obrigado pelo seu e-mail, retornaremos em breve com nossa resposta." />
+        <input type="hidden" name="_captcha" value="false" />
           <div className="form-control">
             <input type="text" name="name" placeholder="Nome" required />
           </div>
@@ -23,7 +26,7 @@ const Contact = () => {
             <input type="text" name="subject" placeholder="Assunto" required />
           </div>
           <div className="form-control">
-            <input type="number" name="phone" placeholder="Telefone" required />
+            <input type="number" name="phone" placeholder="Telefone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required />
           </div>
           <div className="form-control">
             <input type="email" name="email" placeholder="E-mail" required />
