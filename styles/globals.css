@@ -39,7 +39,7 @@ nav {
 nav a {
   margin: auto;
   padding: 20px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .main-buttons {
@@ -63,7 +63,7 @@ footer {
 .not-found {
   margin-top: 150px;
   text-align: center;
-  padding: 120px;
+  padding: 150px;
 }
 
 .not-found a {
@@ -351,3 +351,40 @@ div {
   padding: 10px 0;
   font-size: 17px;
 }
+
+.footer-bar {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-color: #595959;
+}
+
+.copyright {
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.social-media ul {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  list-style: none;
+}
+
+.social-media li {
+  font-size: 30px;
+  color: white;
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+.social-media a:hover {
+  color: #4979ff;
+  border-style: none;
+}
+
