@@ -34,9 +34,9 @@ export default function Home({ artigos }) {
     Aos.init({ duration: 2000 });
   }, []);
 
-  const ultimoPostOne = Object.values(artigos).slice(-1)[0];
-  const ultimoPostTwo = Object.values(artigos).slice(-2)[0];
-  const ultimoPostThree = Object.values(artigos).slice(-3)[0];
+  const ultimoPostOne = Object.values(artigos).slice(0, 1)[0];
+  const ultimoPostTwo = Object.values(artigos).slice(1, 2)[0];
+  const ultimoPostThree = Object.values(artigos).slice(2, 3)[0];
 
   return (
     <>
@@ -59,12 +59,7 @@ export default function Home({ artigos }) {
           <div className="blog-preview">
             {<ArtigoCard key={ultimoPostOne.sys.id} artigo={ultimoPostOne} />}
             {<ArtigoCard key={ultimoPostTwo.sys.id} artigo={ultimoPostTwo} />}
-            {
-              <ArtigoCard
-                key={ultimoPostThree.sys.id}
-                artigo={ultimoPostThree}
-              />
-            }
+            {<ArtigoCard key={ultimoPostThree.sys.id} artigo={ultimoPostThree} />}
           </div>
           <Link href="/blog">
             <div className={styles.btnBlog}>

@@ -448,3 +448,15 @@ div {
   background-color: #4979ff;
   color: white;
 }
+
+.banner {
+  text-align: center;
+}
+
+.banner h1 {
+  margin: 50px 300px;
+}
+
+.conteudo {
+  margin: 50px 300px;
+}
