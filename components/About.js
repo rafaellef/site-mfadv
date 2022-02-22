@@ -1,3 +1,5 @@
+import styles from "../styles/Home.module.css";
+import Link from "next/link";
 import Image from "next/image";
 import { useEffect } from "react";
 import Aos from "aos";
@@ -20,6 +22,11 @@ const About = () => {
           delectus quibusdam consectetur quo sapiente, ullam quas consequuntur
           assumenda laborum.
         </p>
+        <div className={styles.btnAction}>
+          <Link href="/escritorio">
+            <button>Saiba mais</button>
+          </Link>
+        </div>
       </div>
       <div data-aos="fade-up" className="about-image">
         <Image

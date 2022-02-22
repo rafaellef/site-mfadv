@@ -19,7 +19,7 @@ const Navbar = ({ openModal }) => {
         <Link href="/">
           <a>Home</a>
         </Link>
-        <Link href="/#about">
+        <Link href="/escritorio">
           <a>Escritório</a>
         </Link>
         <Link href="/#contact">
