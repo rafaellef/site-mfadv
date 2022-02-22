@@ -489,7 +489,7 @@ div {
 }
 
 .about-intro {
-  height: 50vh;
+  height: 45vh;
 }
 
 .slider-intro {
@@ -514,10 +514,10 @@ div {
 
 .column {
   flex: 1 0 26%;
-  display:flex;
-   justify-content:center;
-   align-items:center;
-   height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
 }
 
 .card-image {
