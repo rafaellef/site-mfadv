@@ -1,10 +1,7 @@
-// import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 const Navbar = ({ openModal }) => {
-  // const [openModal, setOpenModal] = useState(false);
-
   return (
     <nav>
       <div className="logo">
@@ -29,16 +26,9 @@ const Navbar = ({ openModal }) => {
           <a>Blog</a>
         </Link>
       </div>
-      <button
-        className="button-client"
-        onClick={openModal}
-        // onClick={() => {
-        //   setOpenModal(true);
-        // }}
-      >
+      <button className="button-client" onClick={openModal}>
         Área do cliente
       </button>
-      {/* {openModal && <Modal closeModal={setOpenModal} />} */}
     </nav>
   );
 };
