@@ -34,7 +34,7 @@ nav {
   top: 0;
   width: 100%;
   height: 110px;
-  z-index: 1;
+  z-index: 99;
 }
 nav a {
   margin: auto;
@@ -137,55 +137,32 @@ footer {
   border-radius: 10px;
   padding: 30px;
   margin: 30px;
-  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.8);
   transition: box-shadow 0.3s ease-out;
   transition: 0.3s ease box-shadow;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 90px;
   width: 125px;
   display: flex;
   flex-basis: 25%;
   text-align: center;
+  position: relative;
+}
+
+.service-image {
+  border-radius: 5px;
+  opacity: 0.45;
 }
 
 .service h1 {
   align-self: center;
   color: white;
-}
-
-.services-section .service:hover {
-  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.2);
+  z-index: 2;
 }
 
 .title-services {
   text-align: center;
   font-size: 25px;
   padding: 10px 0;
-}
-
-.d-admin {
-  background-image: url("../public/fotos/direito-administrativo.jpeg");
-}
-
-.d-civil {
-  background-image: url("../public/fotos/direito-civil.jpg");
-}
-
-.d-tributario {
-  background-image: url("../public/fotos/direito-tributario.jpg");
-}
-
-.d-empresarial {
-  background-image: url("../public/fotos/direito-empresarial.jpg");
-}
-
-.d-trabalho {
-  background-image: url("../public/fotos/direito-do-trabalho.jpg");
-}
-
-.d-familia {
-  background-image: url("../public/fotos/direito-da-familia.jpg");
 }
 
 .content-article {
@@ -209,21 +186,20 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 30vh;
-  background-image: url("../public/fotos/estatua-simbolo-justica.jpg");
-  background-position: 75% 25%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.8);
   color: white;
+  position: relative;
 }
 
 .blog-intro h1,
 div {
   margin: 0 auto;
+  z-index: 2;
 }
 
 .citacao {
   font-size: 18px;
+  z-index: 2;
 }
 
 .thumbnail-artigos {
@@ -476,16 +452,14 @@ div {
   justify-content: space-between;
   align-items: center;
   height: 30vh;
-  background-image: url("../public/fotos/mario-filho-advogados-escritorio.jpg");
-  background-position: right 25% bottom 78%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.8);
   color: white;
+  position: relative;
 }
 
 .about-intro-bar h1 {
   margin-left: 180px;
+  z-index: 2;
 }
 
 .about-intro {

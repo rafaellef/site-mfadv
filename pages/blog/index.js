@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { createClient } from "contentful";
 import ArtigoCard from "../../components/ArtigoCard";
+import Image from "next/image";
 
 export async function getStaticProps() {
   const client = createClient({
@@ -20,7 +21,7 @@ export async function getStaticProps() {
 }
 
 const Blog = ({ artigos }) => {
-  console.log(artigos)
+  console.log(artigos);
 
   return (
     <>
@@ -34,14 +35,17 @@ const Blog = ({ artigos }) => {
       </Head>
       <div className="blog-section">
         <div className="blog-intro">
+          <Image
+            className="service-image"
+            src="/fotos/estatua-simbolo-justica.jpg"
+            alt="estatua justiça"
+            objectFit="cover"
+            layout="fill"
+          />
           <h1>Blog</h1>
           <div className="citacao">
-            <q>
-            Nenhuma lei ou regra é mais poderosa do que o conhecimento.
-            </q>
-            <figcaption>
-              &mdash; Platão
-            </figcaption>
+            <q>Nenhuma lei ou regra é mais poderosa do que o conhecimento.</q>
+            <figcaption>&mdash; Platão</figcaption>
           </div>
         </div>
         <div className="artigos-list">

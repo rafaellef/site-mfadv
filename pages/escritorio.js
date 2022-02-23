@@ -5,6 +5,13 @@ const Escritorio = () => {
   return (
     <div className="about-page">
       <div className="about-intro-bar">
+        <Image
+          className="service-image image-office"
+          src="/fotos/mario-filho-advogados-sala-espera.jpg"
+          alt="carteira de trabalho"
+          objectFit="cover"
+          layout="fill"
+        />
         <h1>Escritório</h1>
       </div>
 
@@ -23,7 +30,6 @@ const Escritorio = () => {
       <SliderFotos />
 
       <div className="team-section">
-
         <h2 className="team-text">Nosso time</h2>
         <div className="about-team">
           <div className="column">
