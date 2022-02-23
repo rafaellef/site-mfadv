@@ -47,7 +47,6 @@ export default function Home({ artigos }) {
           content="Escritório de Advocacia localizado em Pelotas atuando nas áreas de Direito Administrativo, Civil, Tributário, Empresarial, do Trabalho e da Família"
         />
         <link rel="icon" href="arte/mario-filho-icon-2.png" />
-        // //
       </Head>
       <div>
         <Hero />
@@ -59,7 +58,12 @@ export default function Home({ artigos }) {
           <div className="blog-preview">
             {<ArtigoCard key={ultimoPostOne.sys.id} artigo={ultimoPostOne} />}
             {<ArtigoCard key={ultimoPostTwo.sys.id} artigo={ultimoPostTwo} />}
-            {<ArtigoCard key={ultimoPostThree.sys.id} artigo={ultimoPostThree} />}
+            {
+              <ArtigoCard
+                key={ultimoPostThree.sys.id}
+                artigo={ultimoPostThree}
+              />
+            }
           </div>
           <Link href="/blog">
             <div className={styles.btnBlog}>
