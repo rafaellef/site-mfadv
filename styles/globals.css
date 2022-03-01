@@ -533,6 +533,9 @@ div {
   .about-page {
     overflow: hidden;
   }
+  .modal-container {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -545,6 +548,10 @@ div {
   }
   .banner h1 {
     margin: 50px 50px;
+  }
+  .modal-container {
+    width: auto;
+    height: auto;
   }
 }
 
@@ -566,7 +573,7 @@ div {
   .modal-background {
     position: absolute;
     display: block;
-    top: 100px;
+    top: 0px;
     width: 100%;
   }
   .modal-container {
@@ -575,7 +582,7 @@ div {
     height: auto;
     border-radius: 12px;
     text-align: center;
-    margin: 10%;
+    margin: 15%;
   }
   .modal-container h1 {
     font-size: 15px;
@@ -707,6 +714,9 @@ div {
   }
   .about-section {
     margin-top: 40px;
+  }
+  .modal-container {
+    margin: 30% 10%;
   }
 }
 
