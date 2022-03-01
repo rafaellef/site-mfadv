@@ -63,6 +63,7 @@ const Contact = () => {
           <br />
           <div>
             <iframe
+              className="google-maps"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.542960502479!2d-52.31163188499788!3d-31.755673881292353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9511b561b53d658d%3A0xf401509eff0b5c24!2sMario%20Filho%20Advogados%20Associados!5e0!3m2!1spt-BR!2sbr!4v1645227007587!5m2!1spt-BR!2sbr"
               width="400"
               height="200"
