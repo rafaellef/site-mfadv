@@ -563,6 +563,38 @@ div {
   .about-intro-bar h1 {
     margin: auto;
   }
+  .modal-background {
+    position: absolute;
+    display: block;
+    top: 100px;
+    width: 100%;
+  }
+  .modal-container {
+    width: -webkit-fill-available;
+    display: block;
+    height: auto;
+    border-radius: 12px;
+    text-align: center;
+    margin: 10%;
+  }
+  .modal-container h1 {
+    font-size: 15px;
+  }
+
+  .modal-background button {
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-style: solid;
+    outline: none;
+    margin: auto 5px;
+  }
+  .image-modal {
+    width: 150px;
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -760,6 +792,7 @@ div {
     align-items: center;
     margin: 15px auto;
     width: 25%;
+    height: auto;
     justify-content: space-around;
   }
 

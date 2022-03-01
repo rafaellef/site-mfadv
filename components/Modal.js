@@ -11,6 +11,7 @@ const Modal = ({ isOpen, close }) => {
               alt="logo-thomson-reuters"
               width={250}
               height={200}
+              className="image-modal"
             />
             <h1>Acesso do cliente</h1>
             <form>

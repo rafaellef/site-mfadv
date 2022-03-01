@@ -120,7 +120,8 @@
   .typewriter {
     margin-top: 110px;
     padding: 70px;
-    font-size: 40px;
+    font-size: 30px;
+    word-wrap: break-word;
   }
 
   .typewriter br {
