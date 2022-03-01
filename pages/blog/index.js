@@ -31,6 +31,9 @@ const Blog = ({ artigos }) => {
           name="description"
           content="Blog com conteúdo sobre Direito Administrativo, Direito Civil, Direito Tributário, Direito Empresarial, Direito do Trabalho e Direito da Família"
         />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="arte/mario-filho-icon-2.png" />
       </Head>
       <div className="blog-section">

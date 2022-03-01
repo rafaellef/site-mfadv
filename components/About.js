@@ -15,12 +15,7 @@ const About = () => {
       <div data-aos="fade-up" className="about-text">
         <h1>O escritório</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio
-          velit ut nihil molestiae numquam laborum! Consequuntur nihil deleniti
-          doloribus recusandae aspernatur dolorum? Quidem sequi consequatur
-          dolores ducimus delectus inventore quas natus! Debitis excepturi
-          delectus quibusdam consectetur quo sapiente, ullam quas consequuntur
-          assumenda laborum.
+        Um ambiente criado para gerar tranquilidade, boa condição de trabalho, conforto para equipe e clientes.
         </p>
         <div className={styles.btnAction}>
           <Link href="/escritorio">
