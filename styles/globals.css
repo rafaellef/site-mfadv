@@ -721,8 +721,10 @@ div {
   .logo {
     display: flex;
     position: absolute;
-    top: 0;
-    left: 35px;
+    top: auto;
+    left: 15px;
+    width: 200px;
+    height: 100;
   }
 
   .nav-links {
