@@ -582,7 +582,7 @@ div {
     height: auto;
     border-radius: 12px;
     text-align: center;
-    margin: 15%;
+    margin: 10%;
   }
   .modal-container h1 {
     font-size: 15px;
@@ -715,9 +715,6 @@ div {
   .about-section {
     margin-top: 40px;
   }
-  .modal-container {
-    margin: 30% 10%;
-  }
 }
 
 @media screen and (max-width: 400px) {
@@ -726,6 +723,12 @@ div {
   }
   .copyright {
     order: 2;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  .button-client {
+    display: none !important;
   }
 }
 
