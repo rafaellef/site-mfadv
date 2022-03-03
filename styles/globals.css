@@ -526,6 +526,19 @@ div {
 
 /* Responsivo */
 
+@media screen and (max-width: 1550px) {
+  .services-section {
+    height: auto;
+    padding: 20px;
+  }
+
+  .blog-preview-section {
+    height: auto;
+    padding: 20px;
+  }
+
+ }
+
 @media screen and (max-width: 1250px) {
   .about-intro {
     height: auto;
@@ -535,6 +548,10 @@ div {
   }
   .modal-container {
     height: auto;
+  }
+  .services-section {
+    height: auto;
+    padding: 20px;
   }
 }
 
