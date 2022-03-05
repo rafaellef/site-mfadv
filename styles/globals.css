@@ -33,13 +33,13 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 110px;
+  height: 120px;
   z-index: 99;
 }
 nav a {
   margin: auto;
   padding: 20px;
-  font-size: 18px;
+  font-size: 22px;
 }
 .nav-links {
   text-align: center;
@@ -72,7 +72,7 @@ nav .logo {
 }
 
 .button-client {
-  background-color: transparent;
+  background-color: #fa6400;
   border-radius: 5px;
   padding: 15px;
   font-size: 14px;
@@ -80,7 +80,7 @@ nav .logo {
   margin: auto;
   height: 40px;
   text-decoration: none;
-  color: #fa6400;
+  color: black;
   border: 0 solid;
   border-color: #fa6400;
   border-radius: 5px;
@@ -95,9 +95,9 @@ nav .logo {
 }
 
 .button-client:hover {
-  background-color: #fa6400;
+  background-color: transparent;
   cursor: pointer;
-  color: black;
+  color: #fa6400;
   border: 1px solid;
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
@@ -346,6 +346,16 @@ div {
   align-self: center;
 }
 
+.contact-footer {
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+}
+
+
 .social-media ul {
   padding: 20px;
   display: flex;
@@ -375,6 +385,7 @@ div {
   align-items: center;
   background: rgba(41, 43, 41, 0.8);
   z-index: 99;
+  padding: auto;
 }
 
 .modal-container {

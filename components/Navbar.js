@@ -12,8 +12,8 @@ const Navbar = ({ openModal }) => {
         <Image
           src="/arte/mario-filho-logo-2-horizontal.png"
           alt="logo-mario-filho-advogados"
-          width={250}
-          height={125}
+          width={280}
+          height={140}
         />
       </div>
       <div className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={() => setIsMobile(false)}>

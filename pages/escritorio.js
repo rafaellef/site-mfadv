@@ -54,7 +54,7 @@ const Escritorio = () => {
                 />
                 <div className="team-description">
                   <h2>Mario Filho</h2>
-                  <p className="title-description">Advogado</p>
+                  <p className="title-description">Especializado em Direito ....</p>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Escritorio = () => {
                 />
                 <div className="team-description">
                   <h2>Fabiana Prestes</h2>
-                  <p className="title-description">Advogada</p>
+                  <p className="title-description">Especializado em Direito ....</p>
                 </div>
               </div>
             </div>
@@ -88,7 +88,7 @@ const Escritorio = () => {
                 />
                 <div className="team-description">
                   <h2>Rafael Lopes</h2>
-                  <p className="title-description">Advogado</p>
+                  <p className="title-description">Especializado em Direito ....</p>
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@ const Escritorio = () => {
                 />
                 <div className="team-description">
                   <h2>Nelida Leal</h2>
-                  <p className="title-description">Advogada</p>
+                  <p className="title-description">Especializado em Direito ....</p>
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@ const Escritorio = () => {
                 />
                 <div className="team-description">
                   <h2>Julia Wurtig</h2>
-                  <p className="title-description">Advogada</p>
+                  <p className="title-description">Especializado em Direito ....</p>
                 </div>
               </div>
             </div>

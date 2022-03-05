@@ -10,21 +10,16 @@ const Hero = () => {
         <br />
         <Typewriter
           onInit={(typewriter) => {
-            typewriter.typeString("Soluções Jurídicas com").start();
-          }}
-        />
-        <Typewriter
-          onInit={(typewriter) => {
-            typewriter
-              .pauseFor(4000)
-              .typeString("dedicação")
-              .pauseFor(3000)
-              .deleteAll(100)
-              .typeString("comprometimento")
-              .pauseFor(3000)
-              .deleteAll(100)
-              .typeString("experiência")
-              .start();
+            typewriter.typeString("Soluções Jurídicas com dedicação")
+            .pauseFor(4000)
+            .deleteChars(9)
+            .pause(2000)
+            .typeString("compromentimento")
+            .pauseFor(4000)
+            .deleteChars(16)
+            .pause(2000)
+            .typeString("experiência")
+            .start();
           }}
         />
       </div>
