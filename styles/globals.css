@@ -767,7 +767,7 @@ div {
     display: none !important;
   }
   .form {
-    height: 150vh;
+    height: auto;
   }
 }
 
