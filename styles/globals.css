@@ -1,12 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url(../styles/fonts/MYRIADPRO-REGULAR.OTF);
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Myriad Pro", "PT Sans", sans-serif;
   margin: 0;
 }
 
@@ -105,10 +112,11 @@ nav .logo {
 
 .about-section {
   display: flex;
-  height: 100vh;
+  height: 80vh;
   justify-content: space-around;
   align-items: center;
   scroll-margin: 60px !important;
+  margin: auto 50px;
 }
 
 .about-text {
@@ -126,7 +134,7 @@ nav .logo {
 }
 
 .services-section {
-  height: 100vh;
+  height: 80vh;
   background-color: #f1eded;
 }
 
@@ -228,7 +236,7 @@ div {
 }
 
 .blog-preview-section {
-  height: 100vh;
+  height: 80vh;
   background-color: #f1eded;
 }
 
@@ -757,6 +765,9 @@ div {
 @media screen and (max-height: 550px) {
   .button-client {
     display: none !important;
+  }
+  .form {
+    height: 150vh;
   }
 }
 

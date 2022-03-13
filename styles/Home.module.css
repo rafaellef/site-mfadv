@@ -16,7 +16,7 @@
 }
 
 .hero {
-  height: 100vh;
+  height: 80vh;
   background: linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.425)), url('../public/fotos/pelotas.jpg') no-repeat center / cover ;
 }
 
@@ -127,5 +127,9 @@
 
   .typewriter br {
     display: none;
+  }
+
+  .btnHero button {
+    margin-top: auto;
   }
 }
